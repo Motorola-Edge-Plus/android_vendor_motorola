@@ -1,0 +1,26 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf"],
+    "soc_id": ["356"],
+    "panel": ["tianma_syna_667_1080p_dsc_cmd","tianma_syna_667_1080p_dsc_cmd_v1","tianma_syna_667_1080p_dsc_cmd_v2"]
+  },
+  "mot_vsync":{
+    "owner": "mot_vsync",
+    ".params":{
+      "owner": "mot_vsync",
+      "vsync_gpio_delay_60Hz_us":{ "type": "int", "ver": "10101010",
+        "data": "2900"
+      },
+      "vsync_gpio_delay_90Hz_us":{ "type": "int", "ver": "10101010",
+        "data": "8410"
+      },
+      "vsync_trig_cnt":{ "type": "int", "ver": "10101010",
+        "data": "7"
+      },
+      "vsync_delay_tol_us":{ "type": "int", "ver": "10101010",
+        "data": "70"
+      }
+    }
+  }
+}
