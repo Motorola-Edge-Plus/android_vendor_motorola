@@ -337,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/samsung-csot-se77c-20040310-17920304-burton.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-csot-se77c-20040310-17920304-burton.bin \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/synaptics-tianma-s3908-20101607-313204-burton.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3908-20101607-313204-burton.img \
-    vendor/motorola/sm8250-common/proprietary/vendor/firmware/wlanmdsp.otaupdate:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.otaupdate \
     vendor/motorola/sm8250-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
