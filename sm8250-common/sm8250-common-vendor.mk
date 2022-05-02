@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret@1.0-service-qti.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
@@ -914,6 +915,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmimotext.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
+    vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsap_sdk.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/motorola/sm8250-common/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
@@ -1160,6 +1162,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_android.hardware.drm@1.3-service.widevine \
     vendor.goodix.hardware.biometrics.fingerprint@2.1-service \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.limits@1.0-service \
