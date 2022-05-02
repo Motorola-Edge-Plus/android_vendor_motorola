@@ -330,6 +330,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/marley-dsp2-aov-frontend.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-frontend.wmfw \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/marley-dsp2-aov-vrgain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-vrgain.bin \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/marley-dsp3-aov-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp3-aov-control.wmfw \
+    vendor/motorola/sm8250-common/proprietary/vendor/firmware/mot_bm24218_tele.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bm24218_tele.coeff \
+    vendor/motorola/sm8250-common/proprietary/vendor/firmware/mot_bm24218_tele.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bm24218_tele.prog \
+    vendor/motorola/sm8250-common/proprietary/vendor/firmware/mot_bu63169.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bu63169.coeff \
+    vendor/motorola/sm8250-common/proprietary/vendor/firmware/mot_bu63169.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bu63169.prog \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/samsung-boe-se77c-20012020-17910103-burton-dvt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-20012020-17910103-burton-dvt1.bin \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/samsung-boe-se77c-20040310-17910109-burton-dvt2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-20040310-17910109-burton-dvt2.bin \
     vendor/motorola/sm8250-common/proprietary/vendor/firmware/samsung-boe-se77c-20040310-17910305-burton.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-20040310-17910305-burton.bin \
