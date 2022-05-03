@@ -1186,7 +1186,6 @@ PRODUCT_PACKAGES += \
     QtiTelephony \
     QtiTelephonyService \
     atfwd \
-    datastatusnotification \
     dpmserviceapp \
     qcrilmsgtunnel \
     com.qti.dpmframework \
