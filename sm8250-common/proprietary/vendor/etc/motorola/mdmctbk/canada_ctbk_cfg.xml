@@ -1,0 +1,29 @@
+<xml>
+    <ctbk_version>20</ctbk_version>
+    <wifi_tx_pwr_mimo>
+          <!-- (10 plimit)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+        <Default  index="0">72,72,68,68,68,68,68,68,68,68</Default> <!--default, Max-->
+        <State1   index="1">56,56,52,52,52,52,52,52,52,52</State1>  <!--WLAN + Top ANT TX-->
+        <State2   index="2">44,44,32,32,32,32,32,32,32,32</State2>  <!--WLAN + Bottom ANT TX-->
+        <State3   index="3">80,80,80,80,80,80,80,80,80,80</State3>  <!--HotSpot + Top ANT TX-->
+        <State4   index="4">80,80,68,68,68,68,68,68,68,68</State4>  <!--HotSpot + Bottom ANT TX-->
+        <State5   index="5">80,80,56,56,56,56,56,56,56,56</State5>  <!--WLAN Standalone Head(Earpiece on)-->
+        <State6   index="6">52,52,40,40,40,40,40,40,40,40</State6>  <!--WLAN + Top ANT TX Head(Earpiece on)-->
+        <State7   index="7">44,44,32,32,32,32,32,32,32,32</State7>  <!--WLAN + Bottom ANT TX Head(Earpiece on)-->
+        <State8   index="8">56,56,52,52,52,52,52,52,52,52</State8>  <!--WLAN Standalone Body Worn(OB5)-->
+        <State9   index="9">72,72,68,68,68,68,68,68,68,68</State9>  <!--WLAN + Top ANT TX Body Worn(OB5)-->
+        <State10   index="10">80,80,80,80,80,80,80,80,80,80</State10> <!-- WLAN + Bottom ANT TX Body Worn(OB5)-->
+    </wifi_tx_pwr_mimo>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">null</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <sensor type="cap_bottom"           index="2">Moto CapSense Ch0</sensor>
+        <sensor type="cap_none"             index="3">null</sensor>
+        <sensor type="cap_top"              index="4">Moto CapSense Ch2</sensor>
+        <sensor type="cap_top_left"         index="5">Moto CapSense Ch3</sensor>
+    </sar_sensors>
+    <!--OB5 config: 5 = 00000101b (cap_bottom|cap_top)-->
+    <ob5_sensor_config>5</ob5_sensor_config>
+    <!--tx0 config: 8 = 00001000b (cap_top_left)-->
+    <wifi_tx0_sensor_config>8</wifi_tx0_sensor_config>
+</xml>
