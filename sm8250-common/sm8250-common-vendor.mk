@@ -13,14 +13,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
-    vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.motocit.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.motocit.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti-system-ext.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
-    vendor/motorola/sm8250-common/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.motocit.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.motocit.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/motorola/sm8250-common/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/sm8250-common/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
@@ -36,14 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/motorola/sm8250-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/motorola/sm8250-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libMPLib.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libMPLib.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libNVT36xxx.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libNVT36xxx.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calc_bm.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libarcsoft_aec_luma_calculation.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libc++_shared.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libgcorejni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libgcorejni.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libtestcore.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libtestcore.so \
-    vendor/motorola/sm8250-common/proprietary/system_ext/priv-app/CQATest/lib/arm64/libtestsdk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CQATest/lib/arm64/libtestsdk.so \
     vendor/motorola/sm8250-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/motorola/sm8250-common/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/sm8250-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -261,13 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_alt_cfg:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_alt_cfg \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_cfg:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_cfg \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_cfg_model_assembly:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_cfg_model_assembly \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_cfg_model_mmi:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_cfg_model_mmi \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_mmi_mode_order:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_mmi_mode_order \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_pat_mode_order:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_pat_mode_order \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/12m/cqatest_sequence_mode_order:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/12m/cqatest_sequence_mode_order \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/mdmctbk/canada_ctbk_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/mdmctbk/canada_ctbk_cfg.xml \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/mdmctbk/ctbk_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/mdmctbk/ctbk_cfg.xml \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/motorola/mdmctbk/vzw_ctbk_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/mdmctbk/vzw_ctbk_cfg.xml \
@@ -1212,7 +1195,6 @@ PRODUCT_PACKAGES += \
     QtiTelephony \
     QtiTelephonyService \
     atfwd \
-    CQATest \
     dpmserviceapp \
     qcrilmsgtunnel \
     com.qti.dpmframework \
