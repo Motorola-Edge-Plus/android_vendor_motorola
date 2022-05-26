@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/sm8250-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sm8250-common/proprietary/system_ext/etc/permissions/moto-telephony.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/moto-telephony.xml \
     vendor/motorola/sm8250-common/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/sm8250-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/sm8250-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
