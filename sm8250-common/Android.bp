@@ -101,7 +101,7 @@ android_app_import {
 	name: "MotCamera2AI",
 	owner: "motorola",
 	apk: "proprietary/product/app/MotCamera2AI/MotCamera2AI.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -199,6 +199,12 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.motorola.motosignature",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.motorola.motosignature.jar"],
 }
 
 dex_import {
