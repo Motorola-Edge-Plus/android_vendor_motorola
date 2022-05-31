@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/sm8250-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sm8250-common/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sm8250-common/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/sm8250-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/sm8250-common/proprietary/product/etc/init/init.motcamera2.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera2.rc \
@@ -1148,7 +1147,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    com.motorola.motosignature \
     moto-telephony \
     com.qti.dpmframework \
     dpmapi \
