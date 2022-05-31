@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/product/etc/init/init.motcamera2.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera2.rc \
     vendor/motorola/sm8250-common/proprietary/product/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.content.ai.xml \
     vendor/motorola/sm8250-common/proprietary/product/etc/permissions/com.motorola.camera2.whitney.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.whitney.xml \
-    vendor/motorola/sm8250-common/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/sm8250-common/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/sm8250-common/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
     vendor/motorola/sm8250-common/proprietary/product/lib64/libAECV2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libAECV2.so \
