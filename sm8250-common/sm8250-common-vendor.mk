@@ -365,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/sensors/config/tcs3708_boe_b4_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3708_boe_b4_always.json \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/sensors/config/tcs3708_csot_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3708_csot_always.json \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/sensors/config/tcs3708_tianma_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3708_tianma_always.json \
-    vendor/motorola/sm8250-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/motorola/sm8250-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
